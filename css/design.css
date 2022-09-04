@@ -1,0 +1,808 @@
+/* logo */
+.user-name{
+    vertical-align: middle;
+    font-size: unset;
+    color: red;
+}
+/* avatar */
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+.user-info{
+    float: right;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 7px 15px;
+    font-weight: 500;
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: default;
+}
+.user-info:hover{
+    color:#ffd902;
+}
+
+.logo {
+    max-height: 100px;
+}
+
+.main-logo {
+    max-height: 129px !important;
+}
+/* search btn */
+.select-search-btn {
+    height: 50px;
+    line-height: 34px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #333333;
+    position: absolute;
+    border: none;
+    right: 438px;
+    top: -1px;
+    border-radius: 0 5px 5px 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+/* button */
+
+button {
+    cursor: pointer !important;
+    border: none !important;
+    outline: none !important;
+}
+
+.btn {
+    border: none !important;
+    outline: none !important;
+}
+
+
+/* navigation */
+
+#toggle {
+    cursor: pointer;
+}
+
+
+/* order confirmation modal */
+
+.customize-modal-dialog .customize-modal-content .customize-modal-body {
+    padding: 30px !important;
+    overflow-y: hidden !important;
+    min-height: auto !important;
+}
+
+.customize-warning-modal-dialog .customize-warning-modal-content .customize-warning-modal-body {
+    padding: 50px !important;
+    height: 25% !important;
+}
+
+.register-confirm-customize-modal-dialog .register-confirm-customize-modal-content .register-confirm-customize-modal-body {
+    padding: 30px !important;
+    overflow-y: hidden !important;
+    min-height: 640px !important;
+}
+
+.card-confirm-customize-modal-dialog .card-confirm-customize-modal-content .card-confirm-customize-modal-body {
+    padding: 30px !important;
+    overflow-y: hidden !important;
+    height: 410px !important;
+}
+
+.privacy-modal-dialog .privacy-modal-content .privacy-modal-body {
+    padding: 30px !important;
+    overflow-y: hidden !important;
+    width: auto !important;
+    max-height: 640px !important;
+}
+
+.register-confirm-customize-modal-dialog,
+.card-confirm-customize-modal-dialog {
+    max-width: 700px !important;
+}
+
+.customize-modal-dialog {
+    max-width: 30%;
+}
+
+.customize-warning-modal-dialog {
+    max-width: 35%;
+}
+
+.detail-modal-body {
+    max-height: none !important;
+    height: auto !important;
+}
+
+.register-form,
+.card-form,
+.payment-form {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.input-container {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: #F7941D;
+    color: white;
+    width: 50px !important;
+    text-align: center;
+    animation: none;
+}
+
+.payment-label {
+    padding: 10px;
+    background: #F7941D;
+    color: white;
+    width: 120px !important;
+    text-align: center;
+    animation: none;
+}
+
+
+/* card payment */
+
+.card-label {
+    height: 42px;
+    padding: 10px;
+    background: #F7941D;
+    color: white;
+    width: 120px !important;
+    text-align: center;
+    animation: none;
+}
+
+.cards {
+    width: 152px;
+    outline: none;
+    padding-top: .7% !important;
+}
+
+.card-expired-month{
+    padding-top: .7% !important;
+}
+
+.card-expired-year{
+    padding-top: .7% !important;
+}
+
+.del-mg-bot {
+    margin-bottom: 0px;
+}
+
+.card-no {
+    margin-right: 10px;
+}
+
+.card-month {
+    margin: 8px 8px 0px 8px;
+}
+
+.card-year {
+    margin: 8px 8px 0px 8px;
+}
+
+.card-checkbox {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+
+.username,
+.email,
+.phone-no,
+.payment-username,
+.payment-amount,
+.description,
+.rdb-payment-type {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.username:focus,
+.email:focus,
+.phone-no:focus,
+.payment-username:focus,
+.payment-amount:focus,
+.description:focus {
+    border: 2px solid #F7941D;
+}
+
+.checkout-register-article,
+.payment-article,
+.card-article {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding-bottom: 0px !important;
+}
+
+.checkout-register,
+.payment-detail,
+.card-detail {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.back-btn {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.delivery-time {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-top: 0.6% !important;
+    width: 170px !important;
+    height: 42px !important;
+}
+
+.delivery-date {
+    margin-right: 10px;
+    margin-bottom: 0px;
+    min-width: 156px !important;
+    height: 42px !important;
+}
+
+.important-note {
+    margin-top: 4px;
+    color: #ee1a00;
+}
+
+.link-name {
+    text-decoration: underline;
+}
+
+.link-name:hover {
+    font-size: 14px;
+    text-decoration: underline !important;
+    color: #F7941D !important;
+}
+
+.payment-type {
+    padding-top: 41px;
+    width: 126px !important;
+}
+
+.rdb-payment-type {
+    margin-left: 10px;
+}
+
+
+/* convini */
+
+.convini-head,
+.credit-head {
+    text-align: center;
+    background-color: #F7941D;
+    padding-top: 10px;
+}
+
+
+/* convini confirmation payment */
+
+.convini-conf-grid-container {
+    display: grid;
+    grid-template-columns: 300px 220px 220px 220px;
+    padding: 10px;
+}
+
+.convini-conf-description-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.convini-conf-description {
+    padding: 10px 0px 10px 20px;
+}
+
+.convini-payment-btns {
+    margin-top: 15px;
+}
+
+
+/* credit confirmation payment */
+
+.credit-conf-description-title {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.credit-conf-description {
+    padding: 10px 0px 10px 20px;
+}
+
+.space {
+    padding-bottom: 50px;
+}
+
+.credit-payment-btns {
+    margin-top: 15px;
+}
+
+.delete-btn {
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    line-height: 1.2;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+
+/* register form */
+
+.text_required {
+    color: #fff !important;
+    border-radius: 3px;
+    font-size: 10px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 3px 7px;
+    letter-spacing: 0.2em;
+    background: #ee1a00;
+}
+
+.nice-select .list {
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.nice-select .list {
+    width: 150px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 142px auto;
+    padding: 10px;
+}
+
+.brand-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+}
+
+.brand-grid-container .brand-grid-item a:hover {
+    color: #f7941d;
+    text-decoration: underline;
+}
+
+.credit-conf-grid-container {
+    display: grid;
+    grid-template-columns: 300px 220px 220px 220px ;
+    padding: 10px;
+}
+
+.myorder-grid-container {
+    display: grid;
+    grid-template-columns: 270px 270px 270px 150px;
+    padding: 10px;
+}
+
+.convini-grid-container {
+    display: grid;
+    grid-template-columns: 200px auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid rgba(160, 152, 152, 0.8);
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.convini-grid-item {
+    background-color: transparent;
+    border: 1px solid rgba(160, 152, 152, 0.8);
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.convini-grid-container .row1 {
+    padding-top: 8px;
+    grid-row: 1/3;
+}
+
+.convenient-logo {
+    max-width: 100px;
+    max-width: 100px;
+}
+
+
+/* shop grid */
+
+.product-shop {
+    padding: 30px 0px;
+}
+
+.product-shop-nav {
+    margin-bottom: 18px;
+}
+
+
+/* .count-item {
+    margin-left: 200px;
+} */
+
+.shopping-cart-header {
+    margin-top: 15px;
+    color: #F7941D;
+}
+
+.image1 {
+    display: none;
+    word-break: break-all;
+}
+
+
+/* search-shop-grid */
+
+.brand-name {
+    color: #F7941D;
+    margin-bottom: 10px;
+}
+
+
+/* .product-shop {
+    background-color: #F6F7FB;
+} */
+
+
+/* fa square icon to show/hide paragraph */
+
+.fa-plus-square {
+    float: left;
+    margin-top: 6px;
+    color: #F7941D;
+    background-color: #fff;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.company-break,
+.payment-break,
+.price-break,
+.delivery-break,
+.privacy-break {
+    word-break: break-all;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* cart js */
+
+.cart-info {
+    margin-top: 16px;
+}
+
+.discount-important {
+    color: red !important;
+}
+
+.important {
+    color: red !important;
+}
+
+.important1 {
+    color: #1f8c18 !important;
+}
+
+.important2 {
+    color: #2d67a5 !important;
+}
+
+.small-size {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 20px;
+    background: rgb(169, 231, 118);
+    color: rgb(255, 255, 255);
+    padding: 0px 5px 0px 6px;
+    margin-left: 5px;
+    line-height: 1.5;
+    cursor: default;
+}
+
+.medium-size {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 20px;
+    background: rgb(128, 163, 240);
+    color: rgb(255, 255, 255);
+    padding: 0px 5px 0px 6px;
+    margin-left: 5px;
+    cursor: default;
+}
+
+.large-size {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 20px;
+    background: rgb(171, 128, 240);
+    color: rgb(255, 255, 255);
+    padding: 3px 7px 3px 7px;
+    margin-left: 5px;
+    line-height: 1;
+    cursor: default;
+}
+
+.xlarge-size {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 20px;
+    background: rgb(240, 128, 203);
+    color: rgb(255, 255, 255);
+    padding: 0px 5px 0px 6px;
+    margin-left: 5px;
+    cursor: default;
+}
+
+.xxlarge-size {
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bolder;
+    font-size: 12px;
+    border-radius: 20px;
+    background: rgb(240, 173, 128);
+    color: rgb(255, 255, 255);
+    padding: 0px 5px 0px 6px;
+    margin-left: 5px;
+    cursor: default;
+}
+
+.thank-gif {
+    max-width: 240px;
+    margin-left: 200px;
+}
+
+.cart-item-name {
+    font-weight: 700;
+}
+
+.item-quantity {
+    max-width: 60px;
+}
+
+.item-quantity-confirm {
+    height: 32px;
+    width: 45px;
+    padding: 8px;
+}
+
+
+/* shop grid */
+
+.selected {
+    background-color: #F7941D;
+    padding-left: 5px;
+}
+
+
+/* Pagination Style */
+
+.simple-pagination ul {
+    /* margin: 0 0 20px; */
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+.simple-pagination li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+    color: #666;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 0px #EEE;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.simple-pagination .current {
+    color: #FFF;
+    background-color: #F7941D;
+    border-color: #F7941D;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+    background: #f1e4ce;
+    border-color: #f1e4ce;
+    cursor: default;
+}
+
+
+/* send register */
+
+.register-form .username,
+.register-form .address,
+.register-form .phone-no {
+    width: 600px;
+}
+
+.send-register-btns {
+    text-align: center;
+}
+
+
+/* bank payment */
+
+.bank-payment-btns {
+    text-align: center;
+}
+
+h5 {
+    /*中央揃えにする*/
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(212, 11, 11);
+}
+
+.warning-title {
+    text-align: center;
+    color: rgb(250, 183, 0);
+}
+
+
+/*段落のスタイル設定*/
+
+p {
+    /*行の高さを1.6に設定する*/
+    line-height: 1.6;
+    /*中央揃えにする*/
+    text-align: center;
+}
+
+
+/* detail item grid */
+
+.detail-grid-container {
+    display: grid;
+    grid-template-columns: 120px auto;
+    padding: 10px;
+}
+
+.detail-items {
+    background-color: transparent;
+    border: 1px solid rgba(160, 152, 152, 0.8);
+    padding: 8px;
+    font-size: 14px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.detail-items span.old-price {
+    text-decoration: line-through;
+    opacity: .6;
+    margin-right: 2px;
+}
+
+.img1 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.img2 {
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.number-of-item {
+    max-width: 100px;
+    margin-right: 45px;
+}
+
+.number-btn {
+    width: auto;
+    height: 33px;
+    outline: none;
+    border-color: #3f51b5;
+    background-color: #3f51b5;
+    position: relative;
+    border-radius: 7px;
+    padding: 0px 8px 0px 8px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.number-btn:hover,
+.number-btn:active,
+.number-btn:focus,
+.number-btn:visited {
+    background-color: #3f51b5 !important;
+    border-color: #3f51b5 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+/* about */
+
+.privacy,
+.back {
+    color: blue !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* my order list */
+.myorder-detail-grid-container {
+    display: grid;
+    grid-template-columns: 180px auto;
+    padding: 10px; 
+}
+
+.myorder-detail-grid-item {
+    display: flex;
+    word-break: break-all;
+    align-items: center;
+    justify-content: start;
+    background-color: transparent;
+    /* border: 1px solid rgba(160, 152, 152, 0.8); */
+    padding: 5px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* myorder detail */
+.myorder-detail-total-tilte {
+    font-weight: 600;
+    font-size: 16px;
+}
+/* add-to-order button disabled */
+.submit-add-to-cart:disabled,
+.submit-add-to-cart[disabled] {
+    cursor: not-allowed !important;
+}
+.submit-add-to-cart:disabled:hover {
+    background-color: #868e96 !important;
+}
+
+/* shop grid */
+.size-info {
+    margin-left: 300px;
+    font-weight: 700;
+}

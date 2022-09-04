@@ -1,0 +1,73 @@
+H1
+{
+    text-align: center; 
+    font-family: "Oswald";
+    color: #1f1f1fff;
+    font-weight: normal;
+    font-size: 40pt;
+}
+form{
+	font-family: "Bahnschrift SemiBold";
+	 width:60%;
+     min-width: 320px;
+     margin:0 20%; 
+
+}
+form ul{
+	width:50;
+	padding:5% 25%;
+	text-align:center;
+
+
+}
+form ul li{
+	list-style:none;
+	padding:10px 0;
+
+}
+form ul li label{
+	
+	width:80px;
+	float:left; 
+
+}
+.hr_head {
+    height: 18px;
+}
+.submit {
+	background-color: #d63e8ae5;
+    width: 114px; 
+    height: 29px
+}
+.form_center {
+	width: 1200px;
+	height: auto;
+}
+.kahen_Box {
+     width:95%;
+     min-width: 320px;
+     border:#F70841 1px solid;
+     margin:0 2.5%;  
+}
+.kahen_img img{
+	width:90%;
+	padding:5% 5%;
+}
+
+.catchphrase{
+	font-family: "Bahnschrift SemiBold";
+	text-align: center;
+    font-size: 12px;
+    font-style: normal;
+ }
+ .errMessage
+{
+	font-weight: normal;
+	text-transform: none;
+	color: red;
+	font-variant: normal;
+	font-size:medium;
+}
+.align_right{
+    text-align: right;
+}
